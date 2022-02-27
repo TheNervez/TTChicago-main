@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/tutorrequest.css">
+  </head>
+  <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  <body>
+
+    <form>
+      <div class="container">
+        <div class="title"><h1>Tutor Login</h1></div><br>
+        <label><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" >
+
+        <label><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" >
+
+        <label><b>Pronouns</b></label>
+        <input type="text" placeholder="Enter your Pronoun" >
+
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Your Username" >
+
+        <label><b>Grade You Are In</b></label>
+        <div>
+            <select class="custom_select">
+              <option value="">----Select----</option>
+              <option value="male">Middle School</option>
+              <option value="freshman">High School-Freshman</option>
+              <option value="sophomore">High School-Sophomore</option>
+              <option value="junior">High School-Junior</option>
+              <option value="seniors">High School-Senior</option>
+
+            </select>
+          </div>
+          <label><b>Grade You Want To Teach</b></label>
+          <div>
+              <select class="custom_select">
+                <option value="">----Select----</option>
+                <option value="male">Middle School</option>
+                <option value="freshman">High School-Freshman</option>
+                <option value="sophomore">High School-Sophomore</option>
+                <option value="junior">High School-Junior</option>
+                <option value="seniors">High School-Senior</option>
+
+              </select>
+            </div>
+<br>
+        <label><b>Subject You Want To Teach</b></label><br><br>
+        <input type="checkbox" class="name" id="eng" name="eng" value="English">
+        <label for="eng">English</label><br>
+        <input type="checkbox" class="name" id="math" name="math" value="Math">
+        <label for="Math">Math</label><br>
+        <input type="checkbox" class="name" id="sci" name="sci" value="Science">
+        <label for="Science">Science</label><br>
+        <input type="checkbox" class="name" id="his" name="his" value="History">
+        <label for="History">History</label><br>
+        <input type="checkbox" class="name" id="soc" name="soc" value="Social Studies">
+        <label for="Social Studies">Social Studies</label><br>
+        <br><br>
+
+         <label><b>Proof Of Grades <br>(Select more than one file at a time to upload multiple files)</b></label><br><br>
+         <input type="file" id="files" name="files" class="name" multiple><br><br>
+         <label><b>Additional Comments</b></label><br><br>
+         <textarea class="name" rows="8" cols="60" placeholder="  your comments here..."></textarea>
+<br><br>
+<center><a href="#" class="button">Request</a></center>
+
+
+  </div>
+    </form>
+
+  </body>
+</html>
